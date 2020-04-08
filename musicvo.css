@@ -1,0 +1,711 @@
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-shadow: border-box;
+}
+
+nav {
+    position:fixed;
+    background: rgb(0, 0, 0);
+    height: 90px;
+    width: 100%;
+    z-index:4;
+}
+   
+a.mvlogo {
+    padding: 0 20;
+    font-family: 'Codystar', sans-serif;
+}
+
+#logoimg {
+    width: 180px;
+
+}
+
+
+#navid {
+    width: 80%;
+    border: 2px solid red;
+}
+    
+
+nav ul {
+    margin-right: 20px;
+}
+    
+nav ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5;
+    padding-right: 10px;
+}
+
+.navbutton {
+    font-size: 50px;
+    color: rgba(228, 228, 228, 0.658);
+    float: right;
+    line-height: 75px;
+    margin-right: 30px;
+    margin-top: 10px;
+    display: none;
+    cursor: pointer;
+    
+}
+
+#chbx {
+    display: none;
+}
+
+
+    
+#boxx {
+    width: 80%;
+    height: 48px;
+    background: black;
+    border-radius: 5px;
+    
+}
+
+
+#mtavari {
+    color: rgb(253, 253, 253);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 140%;
+    text-decoration: none;
+}
+
+#mtavari:hover {
+    color: rgb(182, 243, 40);
+    transition-duration: 1s;
+}
+
+
+#navloginbtn {
+    background-color: rgba(13, 13, 13, 0.01);
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 140%;
+    cursor: pointer;
+    border: none;
+}
+
+#navloginbtn:hover {
+    color: rgb(236, 35, 35);
+    transition: 1s;
+}
+
+
+#maindiv {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid black;
+    background: url('bgvideo.mp4') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#myvideo {
+    z-index: 0;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.content {
+    position: relative;
+    float: center;
+}
+
+#maintxt {
+    color:white;
+    left: 50%;
+    font-family: 'Black Ops One', serif;
+    font-size: 60px;
+}
+
+#maintxt2 {
+    color:white;
+    left: 50%;
+    font-family: 'Karla', serif;
+    font-size: 40px;
+    }
+
+#maintxt3 {
+    color:rgb(139, 11, 224);
+    background-color: black;
+    left: 50%;
+    font-family: 'Orbitron', serif;
+    font-size: 40px;
+}
+
+#maintxt4 {
+    color:rgb(219, 180, 245);
+    background-color: black;
+    left: 50%;
+    font-family: 'Exo 2', serif;
+    font-size: 20px;
+}
+
+#trybtn {
+    color: white;
+    background-color: rgb(139, 11, 224);
+    border: 2px solid rgb(139, 11, 224);
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Fredoka One', serif;
+    margin: 10px;
+}
+
+
+
+#mySidenav a {
+    z-index: 2;
+    position: absolute;
+    left: -112px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 120px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+#mySidenav a:hover {
+    left: 0;
+}
+  
+#aboutt {
+    top: 150px;
+    background-color: #2196F3;
+    font-family: 'Fredoka One', serif;
+}
+  
+#blog {
+    top: 210px;
+    background: rgb(38,26,212);
+    background: linear-gradient(90deg, rgba(38,26,212,1) 0%, rgba(236,60,211,1) 53%, rgba(247,164,37,1) 100%);
+    font-family: 'Fredoka One', serif;
+}
+  
+#projects {
+    top: 270px;
+    background-color: #f44336;
+    font-family: 'Fredoka One', serif;
+}
+  
+#contact {
+    top: 330px;
+    background-color: #555;
+    font-family: 'Fredoka One', serif;
+}
+
+
+#coverimg {
+    display: block;
+    width: 70%;
+}
+
+#footrdiv {
+    position: relative;
+    width: 100%;
+    background-color: black;
+    z-index: 3;
+    color: white;
+}
+
+
+#infobox {
+    display: inline-block;
+    width: 400px;
+    border-top: 2px rgb(153, 153, 153) solid ;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+
+
+#infohead {
+    font-size: 22px;
+    color:rgb(136, 133, 133);
+    font-family: 'Audiowide', sans-serif;
+    float: left;
+}
+
+#facebk {
+    color: royalblue;
+    font-size: 30px;
+    float: left;
+    cursor: pointer;
+}
+
+#twitt {
+    color: #74b9ff;
+    font-size: 30px;
+    float: left;
+    cursor: pointer;
+}
+
+#instagram {
+    color: #ff6b81;
+    font-size: 30px;
+    float: left;
+    cursor: pointer;
+}
+
+#phone {
+    color: #C4E538;
+    font-size: 30px;
+    float: left;
+    cursor: pointer;
+}
+
+#infoid {
+    font-size: 16px;
+    font-family: 'Exo 2', serif;
+    color: white;
+    float: left;
+    margin: 8px;
+}
+
+
+#infoid2 {
+    font-size: 20px;
+    font-family: 'Exo 2', serif;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+   
+}
+
+#sgagoshidze {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: 'Orbitron', serif;
+}
+
+
+#maindownload {
+    width: 100%;
+    height: 560px;
+    background: rgb(183,90,201);
+    background: linear-gradient(0deg, rgba(183,90,201,1) 0%, rgba(119,18,118,1) 100%);
+}
+
+#storedownload {
+    width: 100%;
+    height: 320px;
+    background: rgb(95,204,87);
+    
+}
+
+
+#downloadtext {
+    display: inline-block;
+
+}
+
+#downloadimg {
+    display: inline-block;
+    
+}
+
+#downtext {
+    color: white;
+    font-size: 30px;
+    font-family: 'Black Ops One', serif;
+}
+
+#issues {
+    color: rgb(3, 1, 1);
+    font-size: 20px;
+    font-family: 'Montserrat', serif;
+    float: left;
+}
+
+#downbtn {
+    background-color: rgb(50, 202, 39);
+    font-family: 'Montserrat', serif;
+    color: black;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 5px;
+}
+
+
+#laptop {
+    width: 200px;
+    height: 160px;
+}
+
+#storeimgg {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: black;
+    margin-right: 10px;
+    margin-right: 4px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  
+button:hover {
+    opacity: 0.8;
+  }
+  
+
+.cancelbtn {
+    border-radius: 5px;
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+    cursor: pointer;
+}
+  
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+  
+.container {
+    padding: 16px;
+}
+  
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+  
+  
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 4; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Login BOx */
+  .modal-content {
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin: 10% auto 15% auto; 
+    border: 2px solid black;
+    width: 30%;
+
+  }
+
+
+  #uspassw {
+      font-family: 'Fredoka One', cursive;
+  } 
+
+  #loginbtn {
+      width: 100px;
+      height: 32px;
+      background-color: rgb(20, 160, 39);
+      cursor: pointer;
+      border-radius: 5px;
+      border: 1px solid black;
+  }
+  
+  
+  /*Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 45px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+    transition: 1s;
+  }
+  
+
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1390px){
+    
+    
+    .navbutton {
+        display: block;
+    }
+    
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(12, 0, 0);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    
+    nav ul li a {
+        font-size: 2vw;
+    }
+    
+    #chbx:checked ~ ul{
+        left: 0;
+        
+    }
+
+
+    
+
+
+
+}
+
+
+
+@media (max-width: 1220px){
+
+    
+    
+
+}
+
+
+
+
+
+
+@media (max-width: 1190px){
+    
+       
+
+}
+
+
+@media (max-width: 1110px){
+
+
+
+}
+
+
+@media (max-width: 940px){
+
+    .modal-content {
+        width: 60%;
+    }
+
+
+  
+}
+
+
+@media (max-width: 890px){
+
+    
+
+}
+
+
+
+
+
+@media (max-width: 800px){
+    
+
+
+        
+    
+ 
+}
+
+
+
+
+
+
+@media (max-width: 700px){
+
+  
+
+}
+
+
+@media (max-width: 670px){
+    
+
+    
+
+}
+
+@media (max-width: 560px){
+
+    
+
+}
+
+
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Audiowide|IBM+Plex+Mono|Krona+One|Open+Sans+Condensed:300|Oxanium|Spartan|Unica+One&display=swap');

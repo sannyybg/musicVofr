@@ -1,0 +1,268 @@
+<html>
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="musicvo.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2|Fredoka+One|Karla|Lato|Montserrat|Amatic+SC|Anton|Audiowide|Orbitron|Black+Ops+One|Exo+2|Fredoka+One|Monoton|Pinyon+Script|Press+Start+2P|Muli|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>MusicVo - Face the music</title>
+    
+    <link rel="icon" href="mvlogo.png">
+    <style>html {
+        background:url('dwad25.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        background-size: cover;
+        }
+        
+        </style>
+</head>
+<body onLoad="typeWriter()">
+    <center>
+    <nav>
+        <input type="checkbox" id="chbx">
+        <label for="chbx" class="navbutton">
+            <i class="fas fa-bars"></i>
+            </label>
+            
+        
+            <ul>
+                <li><a class="mvlogo" href="index.html"><img id="logoimg" src="musicvo.png"></a></li>
+                <li><a id="mtavari" href="index.html">Home</a></li>
+                <li><a id="mtavari" href="pricing.html">Pricing</a></li>
+                <li><a id="mtavari" href="download.html">Download</a></li>
+                <li><a id="mtavari" href="#copyright">About</a></li>
+                <li><button  id="navloginbtn" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">LOGIN</button></li>
+                <li><button  id="navloginbtn" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">REGISTER</button></li>
+            </ul>
+    </nav>
+    </center><br>
+
+
+    <br><br>
+       
+
+
+
+
+
+
+    <div id="maindownload"><br><br><br><br><br><br><br><br><br><br>
+      <center>
+        <div id="downloadtext">
+          <a id="issues">Mobile Apps is currently unavailable</a><br><br>
+          <a id="downtext">Click download button for Windows App</a><br>
+          <a id="issues">Having issues? report problem to support@musicvo.com</a><br><br><br><br>
+          <button id="downbtn">Download</button>
+
+        </div>
+        <div id="downloadimg">
+          <img id="laptop" src="laptop.png"></div>
+        </div>
+
+      </center>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div id="storedownload"><br><br>
+      <center>
+        <div id="downloadtext">
+          <a id="downtext" style="color:black">Bring your music to mobile and tablet, too.</a><br><br>
+          <a id="issues">For Mobile, Tablets, TV-s.</a><br><br>
+          <a id="issues">Listening on your phone or tablet is free, easy, and fun.</a><br><br><br><br>
+          <a href="https://play.google.com/store/apps"><img id="storeimgg" src="playstore2.png"></a>
+          <a href="https://www.apple.com/ios/app-store/"><img id="storeimgg" src="appstore.webp"></a>
+          <a href="https://www.microsoft.com/en-us/store/apps/windows"><img id="storeimgg" src="micrososoftstore1.png"></a>
+
+
+      </center>
+
+    </div>
+
+
+
+
+
+    
+
+
+    <center id="copyright">
+    <div id="footrdiv"><br>
+        <div id="infobox">
+                <span id="infohead">CONTACT</span><br><br>
+                <i id="facebk" class="fab fa-facebook-square"></i><span id="infoid"> Facebook/MusicVo</span><br><br>
+                <i id="instagram" class="fab fa-instagram"></i><span id="infoid"> Instagram/MusicVo</span><br><br>
+                <i id="twitt" class="fab fa-twitter"></i><span id="infoid"> Twitter/MusicVo</span><br><br>
+                <i id="phone" class='fas fa-mobile-alt'></i><span id="infoid"> +995 5551236785</span><br><br>
+                
+
+
+
+            </div>
+
+            <div id="infobox">
+                <span id="infohead">MUSICVO FOR</span><br><br><br>
+                <span id="infoid2">MusicVo is a multifunction Platform for artists, musiclovers, developers, brands and investors. It's easy to use, Enjoy it!!!</span><br><br><br><br>
+            
+                
+
+
+
+
+            </div>
+
+            <div id="infobox">
+              <span id="infohead">ABOUT</span><br><br><br>
+              <span id="infoid2">MusicVo established in 2020 April by EzdihsogagOrdnaS. used in 80 countries around the world,</span><br><br><br><br>
+
+
+
+
+          </div>
+
+          <br><br><br><br><br>
+
+          <center><i class="far fa-copyright"><span id="sgagoshidze"> SGagoshidze, Georgia, 2020.</span></i></center><br><br><br>
+  
+
+
+
+    </div>
+    </center>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+
+    <!-- LOGIN BOX -->
+
+    <div id="id01" class="modal">
+  
+        <form class="modal-content animate" action="/action_page.php" method="post">
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+          </div>
+      
+          <div class="container">
+            <label for="uname"><b><span id="uspassw">Username</span></b></label>
+            <input type="text" placeholder="Username" name="uname" required>
+      
+            <label for="psw"><b><span id="uspassw">Password</span></b></label>
+            <input type="password" placeholder="Your Password" name="psw" required>
+              
+            <button id="loginbtn" type="submit">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me</label>
+          </div>
+      
+          <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+          </div>
+        </form>
+      </div>
+      
+
+
+      
+    <!-- REGISTER BOX -->
+
+    <div id="id02" class="modal">
+  
+        <form class="modal-content animate" action="/action_page.php" method="post">
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+          </div>
+      
+          <div class="container">
+            <label for="email"><b><span id="uspassw">Email</span></b></label>
+            <input type="text" placeholder="Email" name="email" required>
+
+            <label for="uname"><b><span id="uspassw">Username</span></b></label>
+            <input type="text" placeholder="Username" name="uname" required>
+
+      
+            <label for="psw"><b><span id="uspassw">Password</span></b></label>
+            <input type="password" placeholder="Your Password" name="psw" required>
+
+            <label for="psw"><b><span id="uspassw">Repeat password</span></b></label>
+            <input type="password" placeholder="Repeat Password" name="psw" required>
+            
+            <label for="datte"><b><span id="uspassw">BIRTHDATE</span></b></label><br>
+            <input style="cursor:pointer" type="date" placeholder="Birthdate" name="birthdate" required><br><br>
+              
+            <button id="loginbtn" type="submit">Register</button>
+           
+          </div>
+
+        </form>
+    </div>
+   <!-- X button -->
+    <script>
+        var modal = document.getElementById('id01');
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+
+    <!-- body onload typewriter -->
+
+    <script>
+    var i = 0;
+    var txt = 'Try MusicVo';
+    var speed = 90;
+    
+    function typeWriter() {
+      if (i < txt.length) {
+        document.getElementById("maintxt").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+    </script>
+    
+
+
+
+
+</body>
+</html>
